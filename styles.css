@@ -1,5 +1,6 @@
 body{
     background-color: #F6F3E8;
+
 }
 .banner {
     text-align: center;
@@ -17,7 +18,12 @@ body{
 
 .star-image {
     width: 100%;
-    max-width: 100px;
+    max-width: 150px;
+    margin: 40px 0 60px;
+}
+
+h2 {
+    text-align: center;
 }
 
 .intro {
@@ -29,7 +35,19 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
+    background: #f9c999;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containercard{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
 
@@ -73,7 +91,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 .card-button {
     background-color: #FFBE7E;
-    color: #fff;
+    color: #1f1c1c;
     border: none;
     padding: 5px 0px;
     cursor: pointer;
