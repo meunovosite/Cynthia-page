@@ -9,7 +9,7 @@ body{
 .banner-image {
     width: 100%;
     max-width: 500px; /* Largura máxima do banner */
-    height: 500px; /* Altura ajustável conforme a largura */
+    
 }
 
 .star {
@@ -44,11 +44,23 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     align-items: center;
 }
 
+.maps {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .containercard{
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-color: #ffffff;
 }
 
 .card-list {
@@ -115,7 +127,7 @@ a {
 /* Estilos para o rodapé */
 .footer {
     background-color: #1f1f1f;
-    color: #b58a5e;
+    color: #211e1b;
     text-align: center;
     width: 100%;
 }
