@@ -1,15 +1,17 @@
-body{
+body {
     background-color: #F6F3E8;
 
 }
+
 .banner {
     text-align: center;
 }
 
 .banner-image {
     width: 100%;
-    max-width: 500px; /* Largura máxima do banner */
-    
+    max-width: 500px;
+    /* Largura máxima do banner */
+
 }
 
 .star {
@@ -27,9 +29,9 @@ h2 {
 }
 
 .intro {
-text-align: justify;
-padding: 40px 20px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: justify;
+    padding: 40px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
 
 .container {
@@ -55,7 +57,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     align-items: center;
 }
 
-.containercard{
+.containercard {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
@@ -74,8 +76,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     border: 1px solid #ffffff;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: #202020; /* Definindo o background roxo */
-    color: rgb(247, 245, 245); /* Definindo a cor do texto para branco */
+    background-color: #202020;
+    /* Definindo o background roxo */
+    color: rgb(247, 245, 245);
+    /* Definindo a cor do texto para branco */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     /* Responsividade para telas menores */
@@ -117,11 +121,52 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     background-color: #b58a5e;
 }
 
+.dicas {
+    text-align: justify;
+    font-size: 14px;
+    padding: 40px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; 
+}
 
+.dicas h2{
+    padding: 40 0 20PX 0px;
+    margin: 0;
+    font-size: 24px;
+    
+}
 
+.dicas p{
+    padding: 0 40px 20px 40px;
+}
+
+.dicas img {
+    width: 70%;
+    padding: 30px 0 0 50px;
+}
+
+.dicas-content {
+    text-align: center;
+}
 
 a {
     text-decoration: none;
+}
+
+.maps{
+    background-color:#ffffff ;
+}
+.maps h2 {
+    padding: 10px;
+    
+}
+
+.maps iframe {
+    padding: 40px;
+}
+
+.maps P{
+    font-size: 14PX;
+    text-align: center;
 }
 
 /* Estilos para o rodapé */
@@ -131,7 +176,3 @@ a {
     text-align: center;
     width: 100%;
 }
-
-
-
-
