@@ -40,8 +40,9 @@ h2 {
 
 .intro {
     text-align: justify;
-    padding: 40px 20px;
+    padding: 40px 20px 0px 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    margin: 16px 3px 0 3px;
 }
 
 .container {
@@ -191,4 +192,11 @@ a {
     color: #211e1b;
     text-align: center;
     width: 100%;
+}
+
+.aviso{
+    font-style: italic;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0px 20px;
 }
